@@ -1,9 +1,8 @@
 FROM node:4.2-slim
 
 MAINTAINER Selim BENSENOUCI "selim@openlinux.fr"
-RUN npm install   shelljs@0.5.3 \
+RUN npm install -g  shelljs@0.5.3 \
                 run-sequence@1.1.0 \
-               phantomjs@1.9.18  \
                karma-spec-reporter@0.0.22  \
                karma-phantomjs-launcher@0.2.1  \
                karma-jasmine@0.1.6  \
@@ -30,3 +29,5 @@ RUN npm install   shelljs@0.5.3 \
                gulp-concat@2.6.0 \
                gulp-dedupe@0.0.2 \
                gulp-flatten@0.2.0
+               
+CMD ["bash"]
