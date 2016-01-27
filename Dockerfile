@@ -27,6 +27,6 @@ RUN npm install   shelljs@0.5.3 \
                gulp@3.9.0 \
                gulp-chmod@1.3.0 \
                gulp-clean@0.3.1 \
-              && gulp-concat@2.6.0 \
-              && gulp-dedupe@0.0.2 \
-              && gulp-flatten@0.2.0
+               gulp-concat@2.6.0 \
+               gulp-dedupe@0.0.2 \
+               gulp-flatten@0.2.0
